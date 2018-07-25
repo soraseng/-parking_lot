@@ -14,3 +14,13 @@ read_file d:/test.txt
 Eclipse
 - Application client project
 - jre6
+
+# command
+create_parking_lot 13
+park KA-01-HH-1234 White
+leave 4
+status
+registration_numbers_for_cars_with_colour White
+slot_numbers_for_cars_with_colour White
+slot_number_for_registration_number KA-01-HH-3141
+Exit
