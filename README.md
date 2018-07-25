@@ -10,3 +10,7 @@ read text file please use command read_file
 ex.
 read_file d:/test.txt
 
+# ide
+Eclipse
+- Application client project
+- jre6
