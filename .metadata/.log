@@ -1,0 +1,883 @@
+!SESSION 2561-07-23 21:45:16.877 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=th_TH
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\workspace.eclipse\Test-Other -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: errorInternalCactus in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: LaunchTestAction_message_selectConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: LaunchTestAction_message_selectDebugConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: LaunchTestAction_message_selectRunConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WindowTitle in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.191
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageTitleMissingLibrary in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageMissingLibrary in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorTitleNew in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorTitleCreateOfElementFailed in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageSeeErrorLog in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSelectAWebProject in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningTitleWebProjectRequired in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassIsEmpty in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassDoesNotExist in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassIsInterface in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassNotServletTestCase in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageCouldntInstallLibraries in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageCactusBundleNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageDestDirNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageInstallationOfLibsFailed in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageInstallDirNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_AdditionalInfoAddCactusLibraries in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2561-07-23 22:07:42.207
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_DisplayStringAddCactusLibs in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:14:24.065
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:14:24.065
+!MESSAGE Unknown javadoc format for System [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:07.022
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InternalError [in InternalError.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:07.022
+!MESSAGE Unknown javadoc format for InternalError [in InternalError.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:07.524
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Interceptor [in Interceptor.class [in org.omg.PortableInterceptor [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:07.524
+!MESSAGE Unknown javadoc format for Interceptor [in Interceptor.class [in org.omg.PortableInterceptor [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:07.911
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InterruptedException [in InterruptedException.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:07.911
+!MESSAGE Unknown javadoc format for InterruptedException [in InterruptedException.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:08.413
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InterceptorOperations [in InterceptorOperations.class [in org.omg.PortableInterceptor [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:08.429
+!MESSAGE Unknown javadoc format for InterceptorOperations [in InterceptorOperations.class [in org.omg.PortableInterceptor [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:09.389
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:09.390
+!MESSAGE Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:42:10.295
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:42:10.295
+!MESSAGE Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:43:38.611
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:43:38.611
+!MESSAGE Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 22:44:35.945
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 22:44:35.945
+!MESSAGE Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-23 23:10:15.161
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Number {key=Ljava/lang/Number;} [in Number.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-23 23:10:15.161
+!MESSAGE Unknown javadoc format for Number {key=Ljava/lang/Number;} [in Number.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.ui 4 0 2561-07-23 23:51:26.032
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2377)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2459)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2395)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2335)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2263)
+	at org.eclipse.jdt.core.Signature.toString(Signature.java:2740)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.createVariable(ParameterGuesser.java:218)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.evaluateVisibleMatches(ParameterGuesser.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.parameterProposals(ParameterGuesser.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.guessParameters(ParameterGuessingProposal.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeGuessingCompletion(ParameterGuessingProposal.java:225)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeReplacementString(ParameterGuessingProposal.java:191)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getReplacementString(LazyJavaCompletionProposal.java:308)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:364)
+	at org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal.apply(JavaMethodCompletionProposal.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.apply(ParameterGuessingProposal.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:477)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:928)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:879)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1305)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:806)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:489)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5953)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5652)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4268)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4160)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.ui 4 0 2561-07-23 23:51:28.728
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2377)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2459)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2395)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2335)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2263)
+	at org.eclipse.jdt.core.Signature.toString(Signature.java:2740)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.createVariable(ParameterGuesser.java:218)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.evaluateVisibleMatches(ParameterGuesser.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.parameterProposals(ParameterGuesser.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.guessParameters(ParameterGuessingProposal.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeGuessingCompletion(ParameterGuessingProposal.java:225)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeReplacementString(ParameterGuessingProposal.java:191)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getReplacementString(LazyJavaCompletionProposal.java:308)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:364)
+	at org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal.apply(JavaMethodCompletionProposal.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.apply(ParameterGuessingProposal.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:477)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:928)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:879)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1305)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:806)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:489)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5953)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5652)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4268)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4160)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.ui 4 0 2561-07-23 23:51:31.293
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2377)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2459)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2395)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2335)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2263)
+	at org.eclipse.jdt.core.Signature.toString(Signature.java:2740)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.createVariable(ParameterGuesser.java:218)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.evaluateVisibleMatches(ParameterGuesser.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.parameterProposals(ParameterGuesser.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.guessParameters(ParameterGuessingProposal.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeGuessingCompletion(ParameterGuessingProposal.java:225)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeReplacementString(ParameterGuessingProposal.java:191)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getReplacementString(LazyJavaCompletionProposal.java:308)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:364)
+	at org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal.apply(JavaMethodCompletionProposal.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.apply(ParameterGuessingProposal.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:477)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:928)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:879)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1305)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:806)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:489)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5953)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5652)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4268)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4160)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.ui 4 0 2561-07-23 23:51:34.171
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2377)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2459)
+	at org.eclipse.jdt.core.Signature.appendArrayTypeSignature(Signature.java:2395)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2335)
+	at org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:2284)
+	at org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2263)
+	at org.eclipse.jdt.core.Signature.toString(Signature.java:2740)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.createVariable(ParameterGuesser.java:218)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.evaluateVisibleMatches(ParameterGuesser.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuesser.parameterProposals(ParameterGuesser.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.guessParameters(ParameterGuessingProposal.java:296)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeGuessingCompletion(ParameterGuessingProposal.java:225)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.computeReplacementString(ParameterGuessingProposal.java:191)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getReplacementString(LazyJavaCompletionProposal.java:308)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:364)
+	at org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal.apply(JavaMethodCompletionProposal.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.ParameterGuessingProposal.apply(ParameterGuessingProposal.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(AbstractJavaCompletionProposal.java:477)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:928)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:879)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:875)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:657)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:119)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2629)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2593)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2427)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:670)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:663)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.jface.text 4 0 2561-07-23 23:53:25.980
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.Signature.getTypeSignatureKind(Signature.java:1138)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer.appendTypeSignatureLabel(JavaElementLabelComposer.java:717)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer.appendTypeSignatureLabel(JavaElementLabelComposer.java:723)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer.appendFieldLabel(JavaElementLabelComposer.java:574)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLabelComposer.appendElementLabel(JavaElementLabelComposer.java:278)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.getElementLabel(JavaElementLinks.java:514)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.getElementLabel(JavaElementLinks.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:669)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:602)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2561-07-24 19:53:09.058 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=th_TH
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 20:26:33.428
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 20:26:33.428
+!MESSAGE Unknown javadoc format for String [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 20:47:37.814
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 20:47:37.814
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 21:42:35.841
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 21:42:35.841
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 22:03:55.153
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 22:03:55.153
+!MESSAGE Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 22:44:24.116
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 22:44:24.116
+!MESSAGE Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 23:04:49.148
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Object [in Object.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 23:04:49.148
+!MESSAGE Unknown javadoc format for Object [in Object.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 23:13:54.406
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 23:13:54.406
+!MESSAGE Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-24 23:34:10.904
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-24 23:34:10.904
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+!SESSION 2561-07-25 18:43:56.297 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=th_TH
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:04:55.123
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:04:55.123
+!MESSAGE Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:11:55.294
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ProcessBuilder {key=Ljava/lang/ProcessBuilder;} [in ProcessBuilder.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:11:55.294
+!MESSAGE Unknown javadoc format for ProcessBuilder {key=Ljava/lang/ProcessBuilder;} [in ProcessBuilder.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:13:26.213
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Runtime {key=Ljava/lang/Runtime;} [in Runtime.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:13:26.213
+!MESSAGE Unknown javadoc format for Runtime {key=Ljava/lang/Runtime;} [in Runtime.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:23:13.989
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:23:13.989
+!MESSAGE Unknown javadoc format for System {key=Ljava/lang/System;} [in System.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:25:20.743
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:25:20.743
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:25:41.787
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Number {key=Ljava/lang/Number;} [in Number.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:25:41.787
+!MESSAGE Unknown javadoc format for Number {key=Ljava/lang/Number;} [in Number.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:30:38.956
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Process {key=Ljava/lang/Process;} [in Process.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:30:38.956
+!MESSAGE Unknown javadoc format for Process {key=Ljava/lang/Process;} [in Process.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 19:34:02.848
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Readable [in Readable.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 19:34:02.848
+!MESSAGE Unknown javadoc format for Readable [in Readable.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 20:15:39.073
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 20:15:39.073
+!MESSAGE Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 21:53:52.525
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 21:53:52.525
+!MESSAGE Unknown javadoc format for FileNotFoundException {key=Ljava/io/FileNotFoundException;} [in FileNotFoundException.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 23:36:30.478
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 23:36:30.478
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 23:41:02.082
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 23:41:02.082
+!MESSAGE Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2561-07-25 23:43:52.506
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Input {key=Lcom/sun/corba/se/spi/orbutil/fsm/Input;} [in Input.class [in com.sun.corba.se.spi.orbutil.fsm [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2561-07-25 23:43:52.506
+!MESSAGE Unknown javadoc format for Input {key=Lcom/sun/corba/se/spi/orbutil/fsm/Input;} [in Input.class [in com.sun.corba.se.spi.orbutil.fsm [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]

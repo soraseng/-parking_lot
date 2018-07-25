@@ -1,0 +1,276 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+
+		// TODO Auto-generated method stub
+		System.out.println("Input:");
+		String option = "";
+		Scanner scanner = new Scanner(System.in);
+//		String c = scanner.next();
+		Park p = new Park();
+		ReadFile readFile = new ReadFile();
+
+		do {
+			String output = "";
+			try{
+				option = scanner.nextLine();
+				String[] read = option.split(" "); 
+				if(read[0].equals("read_file")){
+					String strFile = readFile.ReadFile(read[1]);
+					String[] read2 = strFile.split("\\|\\|"); 
+					for(int i = 0; i < read2.length; i++){
+						String[] read3 = read2[i].split(" ");
+//						System.out.println(read3[i]);
+			        	if(output.equals(""))
+			        		output += p.command_from_text_file(read3);
+			        	else
+			        		output += "\n" + p.command_from_text_file(read3);
+					}
+				}
+				else if(p.lot_list == null){
+					if(read[0].equals("create_parking_lot")){
+						int i = Integer.parseInt(read[1]);
+						output = p.create_parking_lot(i);
+					}
+					else{
+						output = "Please create parking lot first";
+					}
+				}
+				else{
+					output = p.command_from_text_file(read);
+				}
+			}
+			catch(Exception ex){
+				output = "Input invalid"; // input invalid
+			}
+			System.out.println("\nOutput:\n" + output +"\n\nInput:");
+		}while(!option.equals("Exit"));
+	}
+
+	/* (non-Java-doc)
+	 * @see java.lang.Object#Object()
+	 */
+	public Main() {
+		super();
+	}
+
+}
+
+class Park {
+	Lot[] lot_list;
+	
+	String create_parking_lot (int count){
+		lot_list = new Lot[count];
+		return "Created a parking lot with " + count + " slots";
+	}
+	String park (String registration_number, String colour){
+		String check_free = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				lot_list[i] = new Lot(registration_number, colour);
+				check_free = (i + 1) + "";
+				break;
+			}
+		}
+		if(check_free == ""){
+			return "Sorry, parking lot is full";
+		}
+		else{
+			return "Allocated slot number: " + check_free;
+		}
+	}
+	
+	String registration_numbers_for_cars_with_colour(String colour){
+		String check_colour = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				// pass;
+			}
+			else if (lot_list[i].colour.toUpperCase().equals(colour.toUpperCase())){
+				if(check_colour == "")
+					check_colour += lot_list[i].registration_number;
+				else
+					check_colour += ", " + lot_list[i].registration_number;
+			}
+		}
+		if(check_colour == ""){
+			return "Not found";
+		}
+		else{
+			return check_colour;	
+		}
+	}
+
+	String slot_number_for_registration_number(String registration_number){
+		String check_registration_number = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				// pass;
+			}
+			else if (lot_list[i].registration_number.toUpperCase().equals(registration_number.toUpperCase())){
+				if(check_registration_number == "")
+					check_registration_number += (i+1) + "";
+				else
+					check_registration_number += ", " + (i+1);
+			}
+		}
+		if(check_registration_number == ""){
+			return "Not found";
+		}
+		else{
+			return check_registration_number;	
+		}
+	}
+
+	String slot_numbers_for_cars_with_colour(String colour){
+		String check_slot = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				// pass;
+			}
+			else if (lot_list[i].colour.toUpperCase().equals(colour.toUpperCase())){
+				if(check_slot == "")
+					check_slot += (i + 1) + "";
+				else
+					check_slot += ", " + (i + 1);
+			}
+		}
+		if(check_slot == ""){
+			return "Not found";
+		}
+		else{
+			return check_slot;	
+		}
+	}
+
+	String leave(int slot){
+		if(slot > lot_list.length){
+			return "Not found";
+		}
+		if(lot_list[slot - 1] == null){
+			return "Empty";
+		}
+		else{
+			lot_list[slot - 1] = null;
+//			lot_list[slot - 1] = new Lot("", "");
+			return "Slot number " + slot + " is free";
+		}
+	}
+
+	String status(){
+		String ret = "\nSlot No Registration No. Colour";
+		for(int i = 0; i < lot_list.length; i++){
+			int c = i+1;
+			ret += "\n";
+			if(lot_list[i] == null){
+				ret += fullFilString(c + "", ' ', 8) + fullFilString("Free" + "", ' ', 17);
+			}
+			else {
+				ret += fullFilString(c + "", ' ', 8) + fullFilString(lot_list[i].registration_number + "", ' ', 17) + lot_list[i].colour;
+			}
+		}
+		return ret;
+	}
+
+	public String fullFilString(String str, char fill, int count){
+		for(int i = str.length(); i < count; i++){
+			str += fill;
+		}
+		return str;
+	}
+	
+	String command_from_text_file(String[] read){
+		String output = "";
+		if(read == null){
+			output = "Input invalid";
+		}
+		else if(read[0].equals("create_parking_lot")){
+			int i = Integer.parseInt(read[1]);
+			output = create_parking_lot(i);
+		}
+		else if(read[0].equals("park")){
+			output = park(read[1], read[2]);
+		}
+		else if(read[0].equals("registration_numbers_for_cars_with_colour")){
+			output = registration_numbers_for_cars_with_colour(read[1]);
+		}
+		else if(read[0].equals("slot_number_for_registration_number")){
+			output = slot_number_for_registration_number(read[1]);
+		}
+		else if(read[0].equals("slot_numbers_for_cars_with_colour")){
+			output = slot_numbers_for_cars_with_colour(read[1]);
+		}					 
+		else if(read[0].equals("leave")){
+			int i = Integer.parseInt(read[1]);
+			output = leave(i);
+		}
+		else if(read[0].equals("status")){
+			output = status();
+		}
+		else{
+			output = read + " Command not found";
+		}
+		return output;
+	}
+}
+
+class Lot {
+	String registration_number;
+	String colour;
+	public Lot(String r,String c){
+		registration_number = r;
+		colour = c;
+	}
+}
+
+class ReadFile{
+	
+	String ReadFile(String fileName){
+		String ret = "";
+	 // The name of the file to open.
+//	    String fileName = "temp.txt";
+	
+	    // This will reference one line at a time
+	    String line = null;
+	
+	    try {
+	        // FileReader reads text files in the default encoding.
+	        FileReader fileReader = 
+	            new FileReader(fileName);
+	
+	        // Always wrap FileReader in BufferedReader.
+	        BufferedReader bufferedReader = 
+	            new BufferedReader(fileReader);
+	
+	        while((line = bufferedReader.readLine()) != null) {
+	            System.out.println(line);
+	        	if(ret.equals(""))
+	        		ret += line;
+	        	else
+	        		ret += "||" + line;
+	        }   
+	
+	        // Always close files.
+	        bufferedReader.close();         
+	    }
+	    catch(FileNotFoundException ex) {
+	        System.out.println(
+	            "Unable to open file '" + 
+	            fileName + "'");                
+	    }
+	    catch(IOException ex) {
+	        System.out.println(
+	            "Error reading file '" 
+	            + fileName + "'");                  
+	        // Or we could just do this: 
+	        // ex.printStackTrace();
+	    }
+	    return ret;
+	}
+}

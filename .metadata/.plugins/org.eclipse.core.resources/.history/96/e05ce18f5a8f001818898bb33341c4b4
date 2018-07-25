@@ -1,0 +1,188 @@
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String option = "";
+		Scanner scanner = new Scanner(System.in);
+//		System.out.println("Enter Number");
+//		String c = scanner.next();
+		Park p = new Park();
+		Reader r = new Reader();
+//		int i = Integer.parseInt(c);
+//		p.create_parking_lot(i);
+//		String ret = "";
+//		ret += "\n" + p.park("A21-12KAI-2222","Blue");
+//		ret += "\n" + p.park("PRO-12KAI-9999","Black");
+//		ret += "\n" + p.leave(2);
+//		ret += "\n" + p.park("EDA-1983A-8888","White");
+//		ret += "\n" + p.park("EDA-1983A-8999","GAGAG");
+//		ret += "\n" + p.park("EDA-1983A-8123","Orange");
+//		ret += "\n" + p.park("EDA-1983A-8789","Red");
+//		ret += "\n" + p.leave(2);
+//		System.out.println(ret);
+//		System.out.println("value: " + p.status());
+//
+//		System.out.println(p.lot_list[0]);
+//		System.out.println(p.lot_list[1]);
+//		System.out.println(p.lot_list[2]);
+		do {
+			String output = "";
+			try{
+				option = scanner.next();
+				String[] read = r.input_reader(option);
+				if(read == null){
+					
+				}
+				else if(read[0] == "create_parking_lot"){
+					int i = Integer.parseInt(read[1]);
+					output = p.create_parking_lot(i);
+				}
+				else if(read[0] == "park"){
+					output = p.park(read[1], read[2]);
+				}
+			}
+			catch(Exception ex){
+				output = "input invalid"; // input invalid
+			}
+			System.out.println(output + "\n");
+		}while(option != "");
+	}
+
+	/* (non-Java-doc)
+	 * @see java.lang.Object#Object()
+	 */
+	public Main() {
+		super();
+	}
+
+}
+
+class Reader {
+	String[] input_reader(String method){
+		try{
+			if(method == null || method.length() == 0){
+				return null;
+			}
+			else{
+				return method.split(" ");
+			}
+		}
+		catch(Exception ex){
+			return null; // input invalid
+		}
+	}
+}
+
+class Park {
+	Lot[] lot_list;
+	
+	String create_parking_lot (int count){
+		lot_list = new Lot[count];
+		return "Created a parking lot with " + count + " slots";
+	}
+	String park (String registration_number, String colour){
+		String check_free = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				lot_list[i] = new Lot(registration_number, colour);
+				check_free = (i + 1) + "";
+				break;
+			}
+		}
+		if(check_free == ""){
+			return "Sorry, parking lot is full";
+		}
+		else{
+			return "Allocated slot number: " + check_free;
+		}
+	}
+	
+	String registration_numbers_for_cars_with_colour(String colour){
+		String check_colour = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				// pass;
+			}
+			else if (lot_list[i].colour.toUpperCase().equals(colour.toUpperCase())){
+				if(check_colour == "")
+					check_colour += lot_list[i].registration_number;
+				else
+					check_colour += ", " + lot_list[i].registration_number;
+			}
+		}
+		if(check_colour == ""){
+			return "Not found";
+		}
+		else{
+			return check_colour;	
+		}
+	}
+
+	String slot_number_for_registration_number(String registration_number){
+		String check_registration_number = "";
+		for(int i = 0; i < lot_list.length; i++){
+			if(lot_list[i] == null){
+				// pass;
+			}
+			else if (lot_list[i].registration_number.toUpperCase().equals(registration_number.toUpperCase())){
+				if(check_registration_number == "")
+					check_registration_number += i + "";
+				else
+					check_registration_number += ", " + i;
+			}
+		}
+		if(check_registration_number == ""){
+			return "Not found";
+		}
+		else{
+			return check_registration_number;	
+		}
+	}
+
+	String leave(int slot){
+		if(slot > lot_list.length){
+			return "Not found";
+		}
+		if(lot_list[slot - 1] == null){
+			return "Empty";
+		}
+		else{
+			lot_list[slot - 1] = null;
+//			lot_list[slot - 1] = new Lot("", "");
+			return "Slot number " + slot + " is free";
+		}
+	}
+
+	String status(){
+		String ret = "\nSlot No Registration No. Colour";
+		for(int i = 0; i < lot_list.length; i++){
+			int c = i+1;
+			ret += "\n";
+			if(lot_list[i] == null){
+				ret += fullFilString(c + "", ' ', 8) + fullFilString("Free" + "", ' ', 17);
+			}
+			else {
+				ret += fullFilString(c + "", ' ', 8) + fullFilString(lot_list[i].registration_number + "", ' ', 17) + lot_list[i].colour;
+			}
+		}
+		return ret;
+	}
+
+	public String fullFilString(String str, char fill, int count){
+		for(int i = str.length(); i < count; i++){
+			str += fill;
+		}
+		return str;
+	}
+}
+
+class Lot {
+	String registration_number;
+	String colour;
+	public Lot(String r,String c){
+		registration_number = r;
+		colour = c;
+	}
+}
